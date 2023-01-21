@@ -41,6 +41,7 @@
     "styled-components": ">=5.3.5"
   },
   "scripts": {
+    "format": "prettier --write \"lib/**/*.js\"",
     "build:lib": "rimraf lib && cross-env BABEL_ENV=production NODE_ENV=production babel src -d lib --config-file ../../babel.config.json -D"
   }
 }
