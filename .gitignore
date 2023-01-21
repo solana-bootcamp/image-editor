@@ -1,4 +1,1 @@
-# dependencies
-node_modules
-yarn.lock
-package-lock.json
+node_modules/
